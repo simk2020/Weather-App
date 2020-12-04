@@ -123,5 +123,4 @@ function getHistory() {
 
 $(document).on("click", ".past", getHistory)
 
-})
 
