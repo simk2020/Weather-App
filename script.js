@@ -47,7 +47,7 @@ function apicall() {
               <div class ="col-md-2">
                 <div class="card" style="">
                   <div class="card-body">
-                    <h5 class="card-title">Date: ${response.list[i].dt_txt}</h5>
+                    <h6 class="card-title">Date: ${response.list[i].dt_txt}</h6>
                     <img class="card-img-top" src="http://openweathermap.org/img/wn/${response.list[i].weather[0].icon}@2x.png" alt="Card image cap">
                     <p class="card-text">Temp: ${response.list[i].main.feels_like} </p>
                     <p class="card-text">Humidity: ${response.list[i].main.humidity} </p>
@@ -99,11 +99,6 @@ $(".search").on("click", function () {
   console.log(entercity);
   apicall();
   $(".citycolumn").empty();
-  $(".day1").empty();
-  $(".day2").empty();
-  $(".day3").empty();
-  $(".day4").empty();
-  $(".day5").empty();
 
   $("#pastCities").append(
     `
