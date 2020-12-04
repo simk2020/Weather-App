@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+}
+
+label {
+    font-size: 20pt;
+    text-decoration: solid;
+}
+
+.search { 
+    color: black;
+}
+
+.citycolumn {
+    background-color: rgb(192, 192, 250);
+}
+
+.row2 {
+    background-color: rgb(213, 213, 248);
+}
+
+.main {
+    background-color: rgb(99, 99, 126);
+}
+.green{
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+.red{
+    color:red;
+}
