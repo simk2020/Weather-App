@@ -58,10 +58,6 @@ function apicall() {
           )
         };
       }
-      // for (var i = 0; i < response.value.length; i++) {
-      //   if (i <= 2 ) ${response1.value}, color = green;
-      //   else ${response1.value}, color = green
-      // }
 
       var queryUrl2 = "http://api.openweathermap.org/data/2.5/uvi?lat=" + response.city.coord.lat + "&lon=" + response.city.coord.lon + APIkey;
       console.log(queryUrl2);
@@ -120,7 +116,4 @@ function getHistory() {
   entercity = $(this).attr("id")
   apicall();
 }
-
 $(document).on("click", ".past", getHistory)
-
-
