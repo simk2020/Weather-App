@@ -44,7 +44,7 @@ function apicall() {
           console.log(response.list[i].dt_txt)
           $(".fiveDayForecast").append(
             `
-              <div class ="col-md-3">
+              <div class ="col-md-2">
                 <div class="card" style="">
                   <div class="card-body">
                     <h6 class="card-title">Date: ${response.list[i].dt_txt}</h6>
